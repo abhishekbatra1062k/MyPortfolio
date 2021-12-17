@@ -2,15 +2,15 @@ import dmrc from './images/dmrc.jpg'
 import cn from './images/cn.jpg'
 
 const header = {
-  homepage: '#',
+  homepage: 'https://abhishek-batra-portfolio.herokuapp.com/',
   title: 'AB',
 }
 
 const about = {
   name: 'Abhishek Batra',
   role: 'Software Developer Enthusiast',
-  description: 'A Passionate Learner Who Loves Exploring New Technologies.',
-  resume: 'https://drive.google.com/file/d/1B6tpXJQK1v9eVrSybkZaABuHFGM6Q0ZN/view?usp=drivesdk',
+  description: 'A Highly-Motivated, Innovation-Oriented & Passionate Learner Who Loves Exploring New Technologies.',
+  resume: 'https://drive.google.com/file/d/1HOSV5PUEIinh8TwHp2QnxjYuudseGigf/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/abhishek-batra-1ba574175',
     github: 'https://github.com/abhishekbatra1062k',
@@ -20,7 +20,7 @@ const about = {
 const projects = [
   {
     name: 'PORTFOLIO',
-    description: 'A clean and simple portfolio describing my projects.',
+    description: 'A clean and simple portfolio describing my Projects and Experiences.',
     stack: ['CSS', 'HTML', 'React', 'JavaScript'],
     sourceCode: 'https://github.com/abhishekbatra1062k/',
     livePreview: '#'
@@ -38,6 +38,13 @@ const projects = [
     stack: ['CSS', 'HTML', 'React', 'JavaScript'],
     sourceCode: 'https://github.com/abhishekbatra1062k/Sorting-Visualiser',
     livePreview: 'https://sort-num.herokuapp.com',
+  },
+  {
+    name: 'ROCK-PAPER-SCISSORS GAME',
+    description: 'The familiar game of Rock, Paper, Scissors.',
+    stack: ['CSS', 'HTML', 'JavaScript'],
+    sourceCode: 'https://github.com/abhishekbatra1062k/Rock-Paper-Scissors',
+    livePreview: 'https://abhishekbatra1062k.github.io/Rock-Paper-Scissors/',
   },
   {
     name: 'TEXT COMPRESSION',
@@ -76,7 +83,7 @@ const skills = [
   'PHP',
   'React',
   'Nodejs',
-  'MySQL',
+  'SQL',
   'Git',
   'DBMS',
   'OOPS',
