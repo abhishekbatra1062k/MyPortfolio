@@ -9,7 +9,7 @@ const Footer = () => (
       Created By Abhishek Batra
     </a>
     <br />
-    <p className='thanks'>Thanks for Visiting, Have a Nice Day !</p>
+    <p className='thanks'>Thanks for Visiting, Have a Nice Day!</p>
   </footer>
 )
 
