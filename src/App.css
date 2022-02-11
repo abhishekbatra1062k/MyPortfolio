@@ -12,6 +12,7 @@
   --clr-fg-alt: #2dacbd;
   --clr-primary: #e43636;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --img-shadow: #e43636;
 }
 
 .dark {
@@ -22,6 +23,7 @@
   --clr-primary: rgb(32, 155, 128); 
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --img-shadow: darkcyan;
 }
 
 main {
