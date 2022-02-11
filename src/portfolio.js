@@ -2,7 +2,7 @@ import dmrc from './images/dmrc.jpg'
 import cn from './images/cn.jpg'
 
 const header = {
-  homepage: 'https://abhishek-batra-portfolio.herokuapp.com/',
+  homepage: 'https://abhishek-batra-potfolio.netlify.app/',
   title: 'AB',
 }
 
@@ -10,7 +10,7 @@ const about = {
   name: 'Abhishek Batra',
   role: 'Software Developer Enthusiast',
   description: 'A Highly-Motivated, Innovation-Oriented & Passionate Learner Who Loves Exploring New Technologies.',
-  resume: 'https://drive.google.com/file/d/1HOSV5PUEIinh8TwHp2QnxjYuudseGigf/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1x7T-f3JnpsOhrNkayRI4fYpmFQgmGWsX/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/abhishek-batra-1ba574175',
     github: 'https://github.com/abhishekbatra1062k',
@@ -19,11 +19,11 @@ const about = {
 
 const projects = [
   {
-    name: 'PORTFOLIO',
-    description: 'A clean and simple portfolio describing my Projects and Experiences.',
+    name: 'RECIPE LIST',
+    description: 'This is a web app with basic functionality to search, add, edit and remove recipes.',
     stack: ['CSS', 'HTML', 'React', 'JavaScript'],
-    sourceCode: 'https://github.com/abhishekbatra1062k/',
-    livePreview: '#'
+    sourceCode: 'https://github.com/abhishekbatra1062k/Recipe-List',
+    livePreview: 'https://abatra-recipe-list.netlify.app/'
   },
   {
     name: 'WEATHER APP',
@@ -38,6 +38,13 @@ const projects = [
     stack: ['CSS', 'HTML', 'React', 'JavaScript'],
     sourceCode: 'https://github.com/abhishekbatra1062k/Sorting-Visualiser',
     livePreview: 'https://sort-num.herokuapp.com',
+  },
+  {
+    name: 'ETCH-A-SKETCH',
+    description: 'This is a browser version of toy similar to Etch A Sketch.',
+    stack: ['CSS', 'HTML', 'JavaScript'],
+    sourceCode: 'https://github.com/abhishekbatra1062k/Etch-A-Sketch',
+    livePreview: 'https://abhishekbatra1062k.github.io/Etch-A-Sketch/'
   },
   {
     name: 'ROCK-PAPER-SCISSORS GAME',
@@ -74,14 +81,14 @@ const experiences=[
 ]
 
 const skills = [
-  'C++',
   'C',
+  'C++',
   'Python',
   'HTML',
   'CSS',
+  'ReactJS',
   'JavaScript',
   'PHP',
-  'React',
   'Nodejs',
   'SQL',
   'Git',
