@@ -1,8 +1,9 @@
-img{
+.about img{
   width: 20em;
-  padding-top: 2em;
+  margin-top: 2em;
   border-radius: 5em;
-  border-color: black;
+  border: 2px solid var(--img-shadow);
+  box-shadow: 10px 10px 20px var(--img-shadow);
 }
 
 .about {
