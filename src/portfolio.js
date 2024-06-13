@@ -21,13 +21,13 @@ const about = {
 
 const projects = [
   {
-    name: 'Coin-Market',
+    name: 'COIN-MARKET',
     description: 'Developed a full-stack web application to scrape and display real-time cryptocurrency data from coinmarketcap.com.',
     stack: ['Django', 'Python', 'React', 'HTML', 'JavaScript', 'REST API', 'Web Scraping'],
     sourceCode: 'https://github.com/abhishekbatra1062k/coin-market',
   },
   {
-    name: 'Store-X',
+    name: 'STORE-X',
     description: 'Developed an ecommerce app involving features of updating, deleting items from cart, processing oder after checkout.',
     stack: ['Django', 'Python', 'HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/abhishekbatra1062k/Store-X'
@@ -45,6 +45,13 @@ const projects = [
     stack: ['Node.js', 'JavaScript', 'HTML'],
     sourceCode: 'https://github.com/abhishekbatra1062k/Weather-Website',
     livePreview: 'https://codesandbox.io/s/github/abhishekbatra1062k/Weather-Website',
+  },
+  {
+    name: 'CODEPEN-CLONE',
+    description: 'This is an online platform for testing and showcasing user-created HTML, CSS and JavaScript code snippets.',
+    stack: ['CSS', 'HTML', 'React', 'JavaScript'],
+    sourceCode: 'https://github.com/abhishekbatra1062k/Codepen-Clone',
+    livePreview: 'https://codesandbox.io/s/github/abhishekbatra1062k/Codepen-clone'
   },
   {
     name: 'Game-2048',
