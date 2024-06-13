@@ -29,6 +29,16 @@ const About = () => {
           </a>
         )}
 
+        {social.leetcode && (
+              <a
+                href={social.leetcode}
+                aria-label='leetcode'
+                className='link link--icon'
+              >
+                {"<leetcode>"}
+              </a>
+            )}
+
         {social && (
           <>
             {social.github && (
