@@ -11,7 +11,12 @@ const Skills = () => {
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
+            <h4>{skill.split(':')[0]}</h4>
+            <ul className='skills__list'>{
+              skill.split(':')[1].split(', ').map(s => (
+                <li key={uniqid()} className='skills__list-item btn btn--plain'>{s}</li>
+              ))
+            }</ul>
           </li>
         ))}
       </ul>
