@@ -3,22 +3,35 @@ import cn from './images/cn.jpg'
 import flixstock from './images/flixstock.jpg'
 
 const header = {
-  homepage: 'https://abhishek-batra-potfolio.netlify.app/',
+  homepage: 'https://abhishek-batra-portfolio.netlify.app/',
   title: 'AB',
 }
 
 const about = {
   name: 'Abhishek Batra',
-  role: 'Software Developer Enthusiast',
+  role: 'Software Development Engineer',
   description: 'A Highly-Motivated, Innovation-Oriented & Passionate Learner Who Loves Exploring New Technologies.',
-  resume: 'https://drive.google.com/file/d/1zN4p7XnHV2941b3Tw5BKsl3juwR6VP6C/view?usp=share_link',
+  resume: 'https://drive.google.com/file/d/1MxctrahmR4JQXBqHsOPN06rXdoQS2fcw/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/abhishek-batra-1ba574175',
     github: 'https://github.com/abhishekbatra1062k',
+    leetcode: 'https://leetcode.com/u/a1062000batra/'
   },
 }
 
 const projects = [
+  {
+    name: 'Coin-Market',
+    description: 'Developed a full-stack web application to scrape and display real-time cryptocurrency data from coinmarketcap.com.',
+    stack: ['Django', 'Python', 'React', 'HTML', 'JavaScript', 'REST API', 'Web Scraping'],
+    sourceCode: 'https://github.com/abhishekbatra1062k/coin-market',
+  },
+  {
+    name: 'Store-X',
+    description: 'Developed an ecommerce app involving features of updating, deleting items from cart, processing oder after checkout.',
+    stack: ['Django', 'Python', 'HTML', 'CSS', 'JavaScript'],
+    sourceCode: 'https://github.com/abhishekbatra1062k/Store-X'
+  },
   {
     name: 'RECIPE LIST',
     description: 'This is a web app with basic functionality to search, add, edit and remove recipes.',
@@ -76,7 +89,7 @@ const experiences=[
     duration: 'Aug 2022 - Present',
     img: flixstock,
     alt: 'Flixstock',
-    description: 'Exposure to deliver Production-Level Code. Used object-oriented programming structure. Responsible for Machine Learning Modules’ Pipeline Code Development. Used Python libraries like Ray, Ray Serve, Opentelemtry, jaeger and Amazon Web Services(AWS) for Cluster management and scaling. Developed APIs python libraries like Fastapi and Starlette.',
+    description: 'Developed DLASMS, a system for orchestrating deep learning models in image processing, achieving a 500% throughput increase. Executed Zodiac project using fastapi, starlette, AWS (EC2, S3), and Ray, reducing API response time by 20%.',
   },
   {
     companyName: 'Delhi Metro Rail Corporation',
@@ -84,7 +97,7 @@ const experiences=[
     duration: 'Aug 2021 - Sept 2021',
     img: dmrc,
     alt: 'DMRC',
-    description: 'Added Features To DMRC Maintenance Website. Implemented Enhancements To Improve User Experience.',
+    description: 'Introduced vital functionalities to DMRC Maintenance Website, including real-time availability checks for maintenance tools and a comprehensive roster system for team members.',
   },
   {
     companyName: 'Coding Ninjas',
@@ -92,29 +105,19 @@ const experiences=[
     duration: 'Mar 2020 - Jul 2020',
     img: cn,
     alt: 'Coding Ninjas',
-    description: 'Debugging C++ Codes. Explaining DS Concepts. Monitoring Performance of Assigned Students.',
+    description: 'Provided in-depth explanations of Data Structures and Algorithms concepts to students. Mentored students one-on-one, offering guidance on problem-solving techniques, debugging strategies, and code optimization methods.',
   }
 ]
 
 const skills = [
-  'C',
-  'C++',
-  'Python',
-  'HTML',
-  'CSS',
-  'ReactJS',
-  'JavaScript',
-  'PHP',
-  'Nodejs',
-  'SQL',
-  'Git',
-  'DBMS',
-  'OOPS',
-  'Data Structures',
+  'Core: Data Structures & Algorithms, Object-Oriented Programming, Problem Solving, System Design',
+  'Languages worked with:  C, C++, Python, JavaScript, SQL, PHP, HTML, CSS',
+  'Frameworks/Libraries used:  Nodejs, Django, Fastapi, Ray, ReactJS, Pandas, OpenCV, Numpy',
+  'Softwares used:  Linux, Postman, Windows, VS Code, S3 Browser, MongoDB Compass',
 ]
 
 const contact = {
-  email: 'a1062000batra@gmail.com',
+  email: 'abhishekbatrasde@gmail.com',
 }
 
 export { header, about, projects, experiences, skills, contact }
