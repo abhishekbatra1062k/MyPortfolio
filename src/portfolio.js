@@ -11,7 +11,7 @@ const about = {
   name: 'Abhishek Batra',
   role: 'Software Development Engineer',
   description: 'A Highly-Motivated, Innovation-Oriented & Passionate Learner Who Loves Exploring New Technologies.',
-  resume: 'https://drive.google.com/file/d/1MxctrahmR4JQXBqHsOPN06rXdoQS2fcw/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/12Ehq8hPDLI-ivzSAJ-C7wMY2ccomziEA/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/abhishek-batra-1ba574175',
     github: 'https://github.com/abhishekbatra1062k',
